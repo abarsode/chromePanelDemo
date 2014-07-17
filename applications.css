@@ -1,0 +1,96 @@
+@font-face {
+  font-family: 'Lato-light';
+  src: local("☺"),
+    url("fonts/Lato-Light.ttf") format("truetype");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color:#F0F0F0;
+}
+#statusbar {
+  margin: 0;
+  padding: 0;
+  height:50px;
+  width:100%;
+  position:fixed;
+  background-color:#f0f0f0;
+  display:flex;
+  -webkit-user-select:none;
+  border-bottom:1px solid #e8e8e8;
+}
+
+#statusbar:hover {
+  background-color:#e8e8e8;
+  /*cursor:pointer;*/
+}
+
+#networktext {
+  font-family: 'Lato-light';
+  margin: auto auto auto 1px;
+  padding: 1px;
+  flex:0 1 auto;
+  white-space:nowrap;
+  overflow:hidden;
+}
+
+#networktext1 {
+  font-family: 'Lato-light';
+  margin: auto 1px auto auto;
+  padding: 1px;
+  flex:0 1 auto;
+}
+
+#networkicon {
+  display: block;
+  margin: 20px 1px auto 5px;
+  padding: 0;
+  size: 20px;
+  flex:0 1 auto;
+}
+
+#applist {
+  margin: 0;
+  padding: 0;
+  overflow:hidden;
+}
+
+.appitem {
+  margin: 0;
+  padding: 0px 5px 0px 0px;
+  height:50px;
+  background-color:#f0f0f0;
+  -webkit-user-select:none;
+  border-bottom:1px solid #e8e8e8;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.appitem:hover {
+  background-color:#e8e8e8;
+  cursor:pointer;
+}
+
+.appitemtext {
+  font-family: 'Lato-light';
+  margin: auto 1px;
+  padding: 1px;
+  flex:0 1 auto;
+  white-space:nowrap;
+  overflow:hidden;
+}
+
+.appitemicon {
+  display: block;
+  margin: auto 10px auto 5px;
+  padding: 0;
+  height:30px;
+  width:30px;
+  flex:0 0 auto;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
